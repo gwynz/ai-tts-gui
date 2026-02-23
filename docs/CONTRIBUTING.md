@@ -13,8 +13,8 @@ Thank you for your interest in contributing!
 ### Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/garamyst/ai-tts-gui.git
+cd ai-tts-gui
 npm install
 npm run dev
 npm run check:all

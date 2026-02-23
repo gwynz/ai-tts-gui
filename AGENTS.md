@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is a template with sensible defaults for building Tauri React apps.
+This repository is **AI TTS GUI** — a desktop application for managing stories end-to-end: crawl chapters, translate content, generate AI text-to-speech, and upload directly to YouTube. Built on a Tauri React template with sensible defaults.
 
 ## Core Rules
 

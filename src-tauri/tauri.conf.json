@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "AI TTS GUI",
   "version": "0.1.0",
-  "identifier": "com.tauri-app.app",
+  "identifier": "com.garamyst.ai-tts-gui",
   "build": {
     "removeUnusedCommands": true,
     "beforeDevCommand": "npm run dev",
@@ -13,7 +13,7 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
+        "title": "AI TTS GUI",
         "width": 1000,
         "height": 700,
         "minWidth": 1000,
@@ -45,11 +45,11 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
-    "publisher": "Your Name",
-    "category": "DeveloperTool",
-    "shortDescription": "A Tauri React template application",
-    "longDescription": "A modern Tauri React template with comprehensive boilerplate code, TypeScript, Tailwind CSS, and shadcn/ui components.",
-    "copyright": "Copyright © 2025 Your Name. All rights reserved.",
+    "publisher": "garamyst",
+    "category": "Utility",
+    "shortDescription": "AI-powered story management with TTS and YouTube upload.",
+    "longDescription": "A desktop application for managing stories end-to-end — crawl chapters, translate content, generate AI text-to-speech, and upload directly to YouTube.",
+    "copyright": "Copyright © 2025 garamyst. All rights reserved.",
     "macOS": {
       "frameworks": [],
       "minimumSystemVersion": "10.15",
@@ -63,7 +63,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/latest.json"
+        "https://github.com/garamyst/ai-tts-gui/releases/latest/download/latest.json"
       ],
       "dialog": true,
       "pubkey": "YOUR_UPDATER_PUBLIC_KEY_HERE"

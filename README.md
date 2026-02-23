@@ -1,6 +1,6 @@
-# Tauri React Template
+# AI TTS GUI
 
-A "batteries-included" template for building production-ready desktop applications with **Tauri v2**, **React**, and **TypeScript**. Designed with opinionated patterns that help both human developers and AI coding agents build well-architected apps from the start.
+A desktop application for managing stories end-to-end — crawl chapters, translate content, generate AI text-to-speech, and upload directly to YouTube. Built with **Tauri v2**, **React**, and **TypeScript** with production-ready patterns for both human developers and AI coding agents.
 
 ## Why This Template?
 
