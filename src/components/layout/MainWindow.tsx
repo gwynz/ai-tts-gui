@@ -21,9 +21,9 @@ import { cn } from '@/lib/utils'
  * Sidebar defaults + main default must equal 100.
  */
 const LAYOUT = {
-  leftSidebar: { default: 20, min: 15, max: 40 },
-  rightSidebar: { default: 20, min: 15, max: 40 },
-  main: { min: 30 },
+  leftSidebar: { default: 0, min: 0, max: 0 },
+  rightSidebar: { default: 0, min: 0, max: 0 },
+  main: { min: 60 },
 } as const
 
 // Main content default is calculated to ensure totals sum to 100%
@@ -39,7 +39,7 @@ export function MainWindow() {
   useMainWindowEventListeners()
 
   return (
-    <div className="flex h-screen w-full flex-col overflow-hidden rounded-xl bg-background">
+    <div className="flex h-screen w-full flex-col overflow-hidden bg-background">
       <TitleBar />
 
       <div className="flex flex-1 overflow-hidden">
